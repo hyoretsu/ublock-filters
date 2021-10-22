@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Title: Crack - Responde Aí
+! Version: 1.0.0
+
+# Desborrar questões (na página do livro)
+respondeai.com.br##section#livro > section:style(filter: none !important)
+# Desborrar questão e habilitar seleção de texto
+respondeai.com.br##section#exercicios-resolvidos *:style(filter: none !important; user-select: auto !important)
+# Remover botão de Mostrar Solução Completa
+respondeai.com.br##div[class*="Paywall"]
+# Remover seção de Exercícios Relacionados
+respondeai.com.br##section#exercicios-de-livros-relacionados
+# Remover barra lateral
+respondeai.com.br##main > aside
+# Centralizar questão
+respondeai.com.br##main:style(grid-template-columns: none !important)
+
+# Versão logada do site (inútil, não tem o passo-a-passo completo)
+# Remover paywall inicial
+app.respondeai.com.br##div.ReactModalPortal
+# Remove janela de avaliação
+app.respondeai.com.br##article.widget
+# Habilitar scroll da página
+app.respondeai.com.br##body:style(overflow-y: auto !important)
+# Remover mensagem de contéudo bloqueado
+app.respondeai.com.br##div[class*="NoAccessDisclaimer"]
+# Desborrar e habilitar seleção do texto
+app.respondeai.com.br##.blur > div *:style(filter: none !important; user-select: auto !important)
