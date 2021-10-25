@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Crack - Responde Aí
-! Version: 1.1.0
+! Version: 1.2.0
 
 # Desborrar questões (na página do livro)
 respondeai.com.br##section#livro > section:style(filter: none !important)
@@ -14,6 +14,8 @@ respondeai.com.br##section#exercicios-de-livros-relacionados
 respondeai.com.br##main > aside
 # Centralizar questão
 respondeai.com.br##main:style(grid-template-columns: none !important)
+# Habilitar seleção do texto do 1º passo
+respondeai.com.br##div[class*="Solution"]:style(user-select: auto !important)
 
 # Versão logada do site (inútil, não tem o passo-a-passo completo)
 # Remover paywall inicial
