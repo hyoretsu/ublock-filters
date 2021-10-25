@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Crack - Responde Aí
-! Version: 1.0.0
+! Version: 1.1.0
 
 # Desborrar questões (na página do livro)
 respondeai.com.br##section#livro > section:style(filter: none !important)
 # Desborrar questão e habilitar seleção de texto
-respondeai.com.br##section#exercicios-resolvidos *:style(filter: none !important; user-select: auto !important)
+respondeai.com.br##div[class*="paywall"]:style(filter: none !important; user-select: auto !important)
 # Remover botão de Mostrar Solução Completa
 respondeai.com.br##div[class*="Paywall"]
 # Remover seção de Exercícios Relacionados
