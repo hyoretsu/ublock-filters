@@ -2,7 +2,7 @@
 1. Abra o dashboard do uBlock Origin
 2. Vá na seção "Filter Lists"
 3. Selecione "Import..." no final da página
-4. Cole o link direto do filtro desejado e clique em "Apply changes"
+4. Cole o **link direto** do filtro desejado e clique em "Apply changes"
 
 # Links diretos
 
